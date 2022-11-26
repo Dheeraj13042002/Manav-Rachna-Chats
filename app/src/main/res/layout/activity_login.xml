@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo_mru"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        />
+
+    <EditText
+        android:id="@+id/edit_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_logo"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/edit_background"
+        android:hint="Email"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp"
+    />
+
+
+
+    <EditText
+        android:id="@+id/edit_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_email"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/edit_background"
+        android:hint="Password"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp"
+        />
+
+    <Button
+        android:id="@+id/log_in"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/btn_background"
+        android:text="Log In"
+        android:textColor="@color/white"
+        />
+
+
+    <TextView
+        android:id="@+id/welcome_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/log_in"
+        android:layout_centerHorizontal="true"
+        android:text="New to Manav Rachna?"
+        android:layout_marginTop="20dp"
+        />
+
+<!--    <TextView-->
+<!--        android:id="@+id/sign_up"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/log_in"-->
+<!--        android:layout_marginStart="280dp"-->
+<!--        android:text="Sign Up"-->
+<!--        android:textColor="@color/purple_500"-->
+<!--        />-->
+
+
+
+    <Button
+        android:id="@+id/sign_up"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/log_in"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_background"
+        android:text="Sign Up"
+        android:textColor="@color/white"
+        />
+</RelativeLayout>

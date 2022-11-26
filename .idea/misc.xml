@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Ng995/AndroidStudioProjects/ManavRachnaChats/app/src/main/res/drawable/btn_background.xml" value="0.178" />
+        <entry key="..\:/Users/Ng995/AndroidStudioProjects/ManavRachnaChats/app/src/main/res/drawable/edit_background.xml" value="0.178" />
+        <entry key="..\:/Users/Ng995/AndroidStudioProjects/ManavRachnaChats/app/src/main/res/drawable/message_box.xml" value="0.178" />
+        <entry key="..\:/Users/Ng995/AndroidStudioProjects/ManavRachnaChats/app/src/main/res/layout/activity_chat.xml" value="0.22" />
+        <entry key="..\:/Users/Ng995/AndroidStudioProjects/ManavRachnaChats/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/Ng995/AndroidStudioProjects/ManavRachnaChats/app/src/main/res/layout/activity_main.xml" value="0.1403985507246377" />
+        <entry key="..\:/Users/Ng995/AndroidStudioProjects/ManavRachnaChats/app/src/main/res/layout/activity_sign_up.xml" value="0.22" />
+        <entry key="..\:/Users/Ng995/AndroidStudioProjects/ManavRachnaChats/app/src/main/res/layout/receive.xml" value="0.22" />
+        <entry key="..\:/Users/Ng995/AndroidStudioProjects/ManavRachnaChats/app/src/main/res/layout/send.xml" value="0.22" />
+        <entry key="..\:/Users/Ng995/AndroidStudioProjects/ManavRachnaChats/app/src/main/res/layout/user_layout.xml" value="0.1403985507246377" />
+        <entry key="..\:/Users/Ng995/AndroidStudioProjects/ManavRachnaChats/app/src/main/res/menu/menu.xml" value="0.17552083333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>
